@@ -1,0 +1,39 @@
+.boxed {
+	/*border: 1px solid red;*/
+}
+
+div.square {
+	display: inline-block;
+}
+
+.square {
+	height: 50px!important;
+	width: 50px!important;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+.square-light {
+	background-color: white;
+	background-size: cover;
+}
+
+.square-dark {
+	background-color: silver;
+	background-size: cover;
+}
+
+.chessboard {
+	padding: 0;
+	margin: 0;
+	border: 2px ridge #717171;
+	width: 404px;
+	height: 404px;
+}
+.chessboard-row {
+	width: 400px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+}
